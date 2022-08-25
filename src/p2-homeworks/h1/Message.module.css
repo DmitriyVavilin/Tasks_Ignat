@@ -1,3 +1,35 @@
 .message {
+    display: flex;
+    align-items: flex-end;
 
+    margin: 10px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.content {
+    padding: 15px 30px;
+    border-radius: 5px 5px 0;
+    background-color: rgba(0,0,0, 0.30);
+}
+
+.text {
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #bbffbb;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+    color: #bbffbb;
 }
